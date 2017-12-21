@@ -10,4 +10,4 @@ If we stop here, our application will look incredibly spartan. We might also thi
 
 For the purposes developing HTML applications for humans, HTML is only half the equation. HTML provides structure and meaning. Now we need to customize and refine the esthetics using a visual styling language named CSS.
 
-HTML is the content, structure, meaning. CSS is how things look, function and feel.
+HTML is content, structure, meaning. CSS is how things look, function and feel.

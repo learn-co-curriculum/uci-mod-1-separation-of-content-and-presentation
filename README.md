@@ -4,20 +4,23 @@
 
 We now know what HTML is. We know how to create a properly-formatted HTML
 document and we know how to browse the HTML documentation. We have everything
-we need to be HTML authors. Kind of.
+we need to be HTML authors.
 
-## Writing HTML for Humans
+However, if we look at our rendered HTML pages, we can't help but notice that
+they look incredibly spartan. We could be forgiven for thinking we've travelled
+through time back to 1994!
 
-We want to design for humans. We want our work to function and read well.
-Writing HTML allows us to distribute our content or application to billions of
-people and our content will have an implied meaning based on what HTML tags we
-select.
+HTML lets us define content with semantic _structure_ but we would like a means
+to say "Browser, when you see a `p` tag, or any tag with `id` of _intro_, or a
+`p` tag with a `class` of `warning`, change its presentation from the spartan
+default to some more-attractive alternative."  That "attractive" alternative
+might be "make the font larger" or "make the background red."
 
-If we stop here, our application will look incredibly spartan. We might also
-think that we traveled back to 1994. 
+Technologists recognize a difference between _content_ (the HTML document) and
+_presentation_ the rules for decorating or adorning the rendered elements with
+display rules.
 
-For the purposes developing HTML applications for humans, HTML is only half the
-equation. HTML provides structure and meaning. Now we need to customize and
-refine the esthetics using a visual styling language named CSS.
+## Decorate HTML with Cascading Style Sheets (CSS)
 
-HTML is content, structure, meaning. CSS is how things look, function and feel.
+The means for defining rules to HTML structure in order change presentation is
+a rule specification format called "Cascading Style Sheets" or "CSS."

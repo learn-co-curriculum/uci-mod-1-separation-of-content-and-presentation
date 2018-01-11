@@ -17,8 +17,7 @@ default to some more-attractive alternative."  That "attractive" alternative
 might be "make the font larger" or "make the background red."
 
 Technologists recognize a difference between _content_ (the HTML document) and
-_presentation_ the rules for decorating or adorning the rendered elements with
-display rules.
+_presentation_: the rules for decorating or adorning the rendered elements.
 
 ## Decorate HTML with Cascading Style Sheets (CSS)
 

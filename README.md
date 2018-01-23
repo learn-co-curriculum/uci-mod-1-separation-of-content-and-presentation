@@ -16,8 +16,9 @@ to say "Browser, when you see a `p` tag, or any tag with `id` of `intro`, or a
 default to some more-attractive alternative."  That "attractive" alternative
 might be "make the font larger" or "make the background red."
 
-Technologists recognize a difference between _content_ (the HTML document) and
-_presentation_: the rules for decorating or adorning the rendered elements.
+Technologists recognize a difference between _content_ (the data within the HTML 
+document) and _presentation_: the rules for decorating or adorning the rendered 
+elements.
 
 ## Decorate HTML with Cascading Style Sheets (CSS)
 

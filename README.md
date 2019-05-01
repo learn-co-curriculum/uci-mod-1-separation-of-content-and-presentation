@@ -1,6 +1,11 @@
 # Separation of Content and Presentation
 
-## Problem Statement
+## Learning Goals
+
+- Identify the separation of content and presentation
+- Identify the role of CSS
+
+## Introduction
 
 We now know what HTML is. We know how to create a properly-formatted HTML
 document and we know how to browse the HTML references. We have everything
@@ -8,11 +13,6 @@ we need to be HTML authors. However, if we look at our rendered HTML pages, we
 can't help but notice that they look a little plain. How do we make them look
 more attractive?  And why can't we make our pages look better with only HTML
 itself? We'll solve those questions in this lesson.
-
-## Objectives
-
-1. Identify the separation of content and presentation
-2. Identify the role of CSS
 
 ## Identify the Separation of Content and Presentation
 
@@ -37,16 +37,16 @@ browsers will present HTML. Rules in CSS won't look like HTML and they usually
 live in a file apart from our HTML file.
 
 CSS handles all of the ways we want to customize our content's look and feel
-from margins and colors, to column-based layout!
-
-## Resources
-
-* [CSS Guidelines: The Separation of Concerns](https://cssguidelin.es/#the-separation-of-concerns)
-* [CSS Zen Garden](http://www.csszengarden.com/)
+from margins and colors to column-based layout!
 
 ## Conclusion
 
 We separate the content of our HTML pages from their presentation, which we
 style with CSS. By keeping the two separate, we not only utilize the best tools
-for each job, but we can change code for one without disturbing the code for
+for each job, but we can change the code for one without disturbing the code for
 the other.
+
+## Resources
+
+* [CSS Guidelines: The Separation of Concerns](https://cssguidelin.es/#the-separation-of-concerns)
+* [CSS Zen Garden](http://www.csszengarden.com/)
